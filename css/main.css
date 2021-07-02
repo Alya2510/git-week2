@@ -1,0 +1,45 @@
+body{
+    background-color: #F0FFF0;
+}
+.rectangle {
+    width: 320px;
+    height: 65px;
+    background: #FF0000;
+}
+#xyz {
+    width: 320px;
+    height: 65px;
+    background: green;
+}
+#abc {
+    width: 320px;
+    height: 65px;
+    background: blue;
+}
+.red{
+    width: 120px;
+    height: 120px;
+    background: red; 
+    float: left;
+}
+.green{
+    width: 120px;
+    height: 120px;
+    background: green;
+    float: left;
+}
+.blue{
+    width: 120px;
+    height: 120px;
+    background: blue;
+    float: left;
+}
+.red, .green, .blue{
+    display: inline-block; margin:5%; padding:5px;
+}
+#yellow{
+    width: 320px;
+    height: 65px;
+    background: yellow;
+    float:right;
+}
