@@ -17,6 +17,7 @@ body{
     background: blue;
 }
 .red{
+    margin-top: 50px;
     width: 120px;
     height: 120px;
     background: red; 
@@ -35,11 +36,5 @@ body{
     float: left;
 }
 .red, .green, .blue{
-    display: inline-block; margin:5%; padding:5px;
-}
-#yellow{
-    width: 320px;
-    height: 65px;
-    background: yellow;
-    float:right;
+    display: inline-block; margin:0; padding:0;
 }
