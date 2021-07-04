@@ -1,40 +1,50 @@
-body{
-    background-color: #F0FFF0;
-}
-.rectangle {
-    width: 320px;
-    height: 65px;
-    background: #FF0000;
-}
-#xyz {
-    width: 320px;
-    height: 65px;
-    background: green;
-}
-#abc {
-    width: 320px;
-    height: 65px;
-    background: blue;
-}
-.red{
-    margin-top: 50px;
-    width: 120px;
-    height: 120px;
-    background: red; 
-    float: left;
-}
-.green{
-    width: 120px;
-    height: 120px;
-    background: green;
-    float: left;
-}
-.blue{
-    width: 120px;
-    height: 120px;
-    background: blue;
-    float: left;
-}
-.red, .green, .blue{
-    display: inline-block; margin:0; padding:0;
-}
+main {
+    max-width: 900px;
+  }
+  .color-row {
+    display: flex;
+  }
+  .color-block {
+    max-width: 700px;
+    margin-bottom: 24px;
+  }
+  .color-block div {
+    width: 100%;
+    height: 150px;
+  }
+  .text-block-wrap {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 12px;
+  }
+  .text-block-wrap {
+    height: 150px;
+    padding: 12px;
+    flex-basis: 33%;
+    margin: 0 12px;
+  }
+  .red {
+    background-color: red;
+  }
+
+  .green {
+    background-color: green;
+  }
+
+  .blue {
+    background-color: blue;
+  }
+
+  .yellow {
+    background-color: yellow;
+  }
+
+  .black {
+    background-color: black;
+  }
+  .gray {
+    background-color: gainsboro;
+  }
+  .light-green {
+    background-color: greenyellow;
+  }
